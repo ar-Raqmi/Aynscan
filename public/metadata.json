@@ -1,0 +1,5 @@
+{
+  "name": "Aynscan",
+  "description": "Batch upload images containing documents and use AI to perform OCR, enabling instant text search across all your visual files.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,16 @@
+{
+  "short_name": "Aynscan",
+  "name": "Aynscan AI OCR",
+  "description": "Batch upload images containing documents and use AI to perform OCR.",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1e102e",
+  "background_color": "#1e102e"
+}
