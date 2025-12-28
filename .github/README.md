@@ -86,15 +86,8 @@
 | Authentication | Upload & Processing |
 |:---|:---------------|
 | <img src="images/loginPage.png" width="450" height="280" style="object-fit: cover;" /> | <img src="images/uploadSection.png" width="450" height="280" style="object-fit: cover;" /> |
-| **Image Queue** | **Search Functionality** |
-| <img src="images/imageList.png" width="450" height="280" style="object-fit: cover;" /> | <img src="images/searchFunction.png" width="450" height="280" style="object-fit: cover;" /> |
-
-<div align="center">
-    <br />
-    <strong>Detailed Extraction View</strong>
-    <br />
-    <img src="images/detailView.png" width="915" height="400" style="object-fit: cover;" />
-</div>
+| **Image Queue** | **Detailed Extraction View** |
+| <img src="images/imageList.png" width="450" height="280" style="object-fit: cover;" /> | <img src="images/detailView.png" width="450" height="280" style="object-fit: cover;" /> |
 
 <div align="center">
     <h2>⊙ project structure ⊙</h2>
