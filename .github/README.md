@@ -12,7 +12,7 @@
 
 <div align="center">
     <h2>⊙ overview ⊙</h2>
-    <h3></h3>
+    <h3>Privacy-first, edge-processed document digitization</h3>
 </div>
 
 <details open>
@@ -39,7 +39,7 @@
      cd aynscan
      npm install
      ```
-  2. Configure `.env`:
+  2. Configure `.env.local`:
      ```env
      VITE_CF_ACCOUNT_ID=your_cloudflare_account_id
      VITE_CF_API_TOKEN=your_cloudflare_api_token
@@ -57,6 +57,13 @@
      - `CF_API_TOKEN`: Your Cloudflare API Token (used by the backend proxy).
      - `VITE_CF_ACCOUNT_ID`: Your Cloudflare Account ID.
      - `VITE_CF_API_TOKEN`: Your Cloudflare API Token (used by the frontend for local dev, can be same as above).
+
+  ### Security & Authentication
+  - **Default Password**: `password`
+  - **How to Change**: To change the access password, edit the `PASSWORD_HASH` constant in `components/Login.tsx`:
+    ```typescript
+    const PASSWORD_HASH = 'your_new_password_here';
+    ```
 </details>
 
 <details>
@@ -67,13 +74,13 @@
   | [React 19](https://react.dev/) | Frontend framework |
   | [TypeScript](https://www.typescriptlang.org/) | Type-safe development |
   | [Vite](https://vitejs.dev/) | High-speed build tool |
-  | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Edge-based AI inference |
+  | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | Edge-based AI inference (Llama 3.2 Vision) |
 
 </details>
 
 <div align="center">
     <h2>⊙ screenshots ⊙</h2>
-    <h3></h3>
+    <h3>Visual guide to the application interface</h3>
 </div>
 
 | Authentication | Upload & Processing |
@@ -91,20 +98,20 @@
 
 <div align="center">
     <h2>⊙ project structure ⊙</h2>
-    <h3></h3>
+    <h3>Modular architecture for scalability</h3>
 </div>
 
 - `components/`: Reusable UI components.
-- `services/`: Logic for interacting with AI APIs (Cloudflare).
+- `services/`: Logic for interacting with AI APIs (Cloudflare Workers AI).
 - `functions/api/cf/`: Cloudflare Pages Functions for proxying API requests.
 - `App.tsx`: Main application entry point.
 
 <div align="center">
     <h2>⊙ thank you ⊙</h2>
-    <h3></h3>
+    <h3>Open-source contributions and support</h3>
 </div>
 
-- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ---
 
